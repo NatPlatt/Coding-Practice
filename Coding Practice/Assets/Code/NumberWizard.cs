@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class NumberWizard : MonoBehaviour
 {
 
 	public int largeNum = 1000;
@@ -17,11 +17,17 @@ public class NewBehaviourScript : MonoBehaviour
 		Debug.Log("The Highest number you can pick is: " + largeNum);
 		Debug.Log("The lowest number you can pick is: " + smallNum);
 		Debug.Log("Tell me if your number is higher or lower than " +  myGuess);
+		Debug.Log("Press up arrow if higher, down arrow if lower, then press Enter");
 	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update ()
+	{
+
+		if (Input.GetKeyDown(KeyCode.UpArrow))
+		{
+			Debug.Log("User pressed up arrow");
+		};
 	}
 }
