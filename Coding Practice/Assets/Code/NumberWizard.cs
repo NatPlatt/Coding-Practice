@@ -28,6 +28,16 @@ public class NumberWizard : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
 			Debug.Log("User pressed up arrow");
-		};
+		}
+
+		if (Input.GetKeyDown(KeyCode.DownArrow))
+		{
+			Debug.Log("User pressed down arrow");
+		}
+
+		if (Input.GetKeyDown(KeyCode.Return))
+		{
+			Debug.Log("User pressed enter");
+		}
 	}
 }
