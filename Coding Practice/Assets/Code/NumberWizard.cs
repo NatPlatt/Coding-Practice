@@ -12,8 +12,8 @@ public class NewBehaviourScript : MonoBehaviour
 	void Start () {
 		Debug.Log("Welcome to the Number Wizard.");
 		Debug.Log("Pick a number, but don't tell me what it is");
-		Debug.Log("The Highest number you can pick is": largeNum);
-		Debug.Log("The lowest number you can pick is ", smallNum);
+		Debug.Log("The Highest number you can pick is: " + largeNum);
+		Debug.Log("The lowest number you can pick is: " + smallNum);
 		
 	
 	}
