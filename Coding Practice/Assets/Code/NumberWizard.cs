@@ -18,7 +18,7 @@ public class NumberWizard : MonoBehaviour
 		Debug.Log("The lowest number you can pick is: " + smallNum);
 		Debug.Log("Tell me if your number is higher or lower than " +  myGuess);
 		Debug.Log("Press up arrow if higher, down arrow if lower, then press Enter");
-	
+		largeNum = largeNum + 1;
 	}
 	
 	// Update is called once per frame
@@ -27,12 +27,16 @@ public class NumberWizard : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
-			Debug.Log("User pressed up arrow");
+			smallNum = myGuess;
+			myGuess = (largeNum + smallNum) / 2;
+			Debug.Log("Is it higher or lower than..." + myGuess);
 		}
 
 		else if (Input.GetKeyDown(KeyCode.DownArrow))
 		{
-			Debug.Log("User pressed down arrow");
+			largeNum = myGuess;
+			myGuess = (largeNum + smallNum) / 2;
+			Debug.Log("Is it higher or lower than..." + myGuess);
 		}
 
 		else if (Input.GetKeyDown(KeyCode.Return))
