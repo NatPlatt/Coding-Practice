@@ -33,20 +33,24 @@ public class NumberWizard : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
 			smallNum = myGuess;
-			myGuess = (largeNum + smallNum) / 2;
-			Debug.Log("Is it higher or lower than..." + myGuess);
+			NextGuess();
 		}
 
 		else if (Input.GetKeyDown(KeyCode.DownArrow))
 		{
 			largeNum = myGuess;
-			myGuess = (largeNum + smallNum) / 2;
-			Debug.Log("Is it higher or lower than..." + myGuess);
+			NextGuess();
 		}
 
 		else if (Input.GetKeyDown(KeyCode.Return))
 		{
 			Debug.Log("User pressed enter");
 		}
+	}
+
+	void NextGuess()
+	{
+		myGuess = (largeNum + smallNum) / 2;
+		Debug.Log("Is it higher or lower than..." + myGuess);
 	}
 }
