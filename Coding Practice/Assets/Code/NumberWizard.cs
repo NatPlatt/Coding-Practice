@@ -30,12 +30,12 @@ public class NumberWizard : MonoBehaviour
 			Debug.Log("User pressed up arrow");
 		}
 
-		if (Input.GetKeyDown(KeyCode.DownArrow))
+		else if (Input.GetKeyDown(KeyCode.DownArrow))
 		{
 			Debug.Log("User pressed down arrow");
 		}
 
-		if (Input.GetKeyDown(KeyCode.Return))
+		else if (Input.GetKeyDown(KeyCode.Return))
 		{
 			Debug.Log("User pressed enter");
 		}
