@@ -13,11 +13,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/NumberWizard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/AdventureGame.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Code/NumberWizard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/AdventureGame.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +77,7 @@
       <updated>1576522055929</updated>
       <workItem from="1576522060450" duration="2042000" />
       <workItem from="1576605195827" duration="2130000" />
+      <workItem from="1576807501296" duration="996000" />
     </task>
     <servers />
   </component>

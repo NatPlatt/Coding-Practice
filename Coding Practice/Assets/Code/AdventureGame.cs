@@ -9,7 +9,8 @@ public class AdventureGame : MonoBehaviour
 	
 	void Start ()
 	{
-		textComponent.text = ("This is the game where you choose your own adventure.");
+		textComponent.text = ("This is the game where you choose your own adventure. P.S. I added this text" +
+		                      "programmatically!");
 	}
 	
 	void Update () {
