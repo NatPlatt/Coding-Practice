@@ -7,7 +7,8 @@ public class AdventureGame : MonoBehaviour
 {
 	[SerializeField] Text textComponent;
 	[SerializeField] private States startingState;
-
+	
+	
 	private States state;
 	void Start ()
 	{
