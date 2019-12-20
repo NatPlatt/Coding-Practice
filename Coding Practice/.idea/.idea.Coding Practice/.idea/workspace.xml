@@ -20,8 +20,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Code/NumberWizard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/AdventureGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/States.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/AdventureGame.cs" />
       </list>
     </option>
   </component>
@@ -81,6 +81,7 @@
       <workItem from="1576605195827" duration="2130000" />
       <workItem from="1576807501296" duration="996000" />
       <workItem from="1576809133304" duration="893000" />
+      <workItem from="1576868406326" duration="249000" />
     </task>
     <servers />
   </component>

@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 889686885}
   - component: {fileID: 889686884}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: textObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,6 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1334841449}
+  startingState: {fileID: 11400000, guid: 886466a51707bde4f804a806bf006ade, type: 2}
 --- !u!4 &889686885
 Transform:
   m_ObjectHideFlags: 0
