@@ -3,15 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "State")]
-public class States : ScriptableObject {
+public class States : ScriptableObject
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	[TextArea(10,14)][SerializeField] private string storyText;
 }
