@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Name: FirstState
   m_EditorClassIdentifier: 
   storyText: This is the beginning of your adventure. Are you ready?
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
