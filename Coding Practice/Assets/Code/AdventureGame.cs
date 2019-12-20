@@ -36,5 +36,7 @@ public class AdventureGame : MonoBehaviour
 		{
 			state = nextStates[2];
 		}
+
+		textComponent.text = state.GetStateStory();
 	}
 }
