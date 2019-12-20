@@ -7,11 +7,12 @@ public class AdventureGame : MonoBehaviour
 {
 	[SerializeField] Text textComponent;
 	[SerializeField] private States startingState;
-	
+
+	private States state;
 	void Start ()
 	{
-		textComponent.text = ("This is the game where you choose your own adventure. P.S. I added this text" +
-		                      "programmatically!");
+		state = startingState;
+		textComponent.text = state.GetStateStory();
 	}
 	
 	void Update () {
