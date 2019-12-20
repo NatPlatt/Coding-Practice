@@ -7,8 +7,9 @@ public class AdventureGame : MonoBehaviour
 {
 	[SerializeField] Text textComponent;
 	
-	void Start () {
-		
+	void Start ()
+	{
+		textComponent.text = ("This is the game where you choose your own adventure.");
 	}
 	
 	void Update () {
