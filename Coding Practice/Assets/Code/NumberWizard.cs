@@ -5,11 +5,11 @@ using UnityEngine;
 public class NumberWizard : MonoBehaviour
 {
 
-	public int largeNum = 1000;
+	[SerializeField]public int largeNum = 1000;
 
-	public int smallNum = 1;
+	[SerializeField]public int smallNum = 1;
 
-	public int myGuess = 500;
+	[SerializeField]public int myGuess = 500;
 	
 	void Start () 
 	{
