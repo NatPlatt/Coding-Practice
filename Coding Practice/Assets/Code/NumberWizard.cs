@@ -22,25 +22,27 @@ public class NumberWizard : MonoBehaviour
 	void StartGame()
 	{
 		NextGuess();
-		//guessText.text = guess.ToString();
+		largeNum = largeNum + 1;
+		
 	}
 	
 
 	void OnPressHigher()
 	{
-		
-		smallNum = myGuess;
+		smallNum = myGuess + 1;
 		NextGuess();
 	}
 
 	void OnPressLower()
 	{
-		largeNum = myGuess;
+		largeNum = myGuess - 1;
 		NextGuess();
 	}
 	void NextGuess()
 	{
-		largeNum = largeNum + 1;
-		myGuess = (largeNum + smallNum) / 2;
+
+		myGuess = Random.Range(smallNum, largeNum + 1);
+		//myGuess = (largeNum + smallNum) / 2;
+		//guessText.text = guess.ToString();
 	}
 }
