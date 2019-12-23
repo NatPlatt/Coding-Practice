@@ -24,7 +24,15 @@ public class AdventureGame : MonoBehaviour
 	private void ManageState()
 	{
 		var nextStates = state.GetNextStates(); //Get next states in States scriptable object
-		if (Input.GetKeyDown(KeyCode.Alpha1))
+		for (int index = 0; index < nextStates.Length; index++)
+		{
+			if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+			{
+				state = nextStates[index];
+			}
+		}
+		
+		/*if (Input.GetKeyDown(KeyCode.Alpha1))
 		{
 			state = nextStates[0];
 		}
@@ -35,7 +43,7 @@ public class AdventureGame : MonoBehaviour
 		else if (Input.GetKeyDown(KeyCode.Alpha3))
 		{
 			state = nextStates[2];
-		}
+		}*/
 
 		textComponent.text = state.GetStateStory();
 	}
