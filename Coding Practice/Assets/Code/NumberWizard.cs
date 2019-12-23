@@ -35,13 +35,11 @@ public class NumberWizard : MonoBehaviour
 	
 	void Update ()
 	{
-
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
-			smallNum = myGuess;
-			NextGuess();
+			OnPressHigher();
 		}
-
+		
 		else if (Input.GetKeyDown(KeyCode.DownArrow))
 		{
 			largeNum = myGuess;
@@ -54,6 +52,17 @@ public class NumberWizard : MonoBehaviour
 		}
 	}
 
+	void OnPressHigher()
+	{
+		
+		smallNum = myGuess;
+		NextGuess();
+	}
+
+	void OnPressLower()
+	{
+		
+	}
 	void NextGuess()
 	{
 		myGuess = (largeNum + smallNum) / 2;
