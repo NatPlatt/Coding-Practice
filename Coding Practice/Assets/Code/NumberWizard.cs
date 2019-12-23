@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using TMPro;
 
 public class NumberWizard : MonoBehaviour
 {
 
-	[SerializeField]public int largeNum = 1000;
+	[SerializeField]public int largeNum;
 
-	[SerializeField]public int smallNum = 1;
+	[SerializeField]public int smallNum;
 
-	[SerializeField]public int myGuess = 500;
+	[SerializeField]public int myGuess;
+	
+	//[SerializeField] TextMeshProUGUI guessText;
 	
 	void Start () 
 	{
@@ -18,7 +21,8 @@ public class NumberWizard : MonoBehaviour
 
 	void StartGame()
 	{
-		largeNum = largeNum + 1;
+		NextGuess();
+		//guessText.text = guess.ToString();
 	}
 	
 
@@ -36,6 +40,7 @@ public class NumberWizard : MonoBehaviour
 	}
 	void NextGuess()
 	{
+		largeNum = largeNum + 1;
 		myGuess = (largeNum + smallNum) / 2;
 	}
 }
