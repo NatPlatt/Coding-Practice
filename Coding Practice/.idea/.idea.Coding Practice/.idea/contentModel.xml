@@ -10,6 +10,7 @@
           <e p="AdventureGame.cs" t="Include" />
           <e p="LoseCollider.cs" t="Include" />
           <e p="NumberWizard.cs" t="Include" />
+          <e p="Paddle.cs" t="Include" />
           <e p="States.cs" t="Include" />
         </e>
       </e>
