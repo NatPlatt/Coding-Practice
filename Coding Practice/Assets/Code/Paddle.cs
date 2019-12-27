@@ -2,16 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Paddle : MonoBehaviour {
+public class Paddle : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	[SerializeField] private float screenWidth;
 	
-	// Update is called once per frame
 	void Update () {
-		float mousePosInUnits = Input.mousePosition.x / Screen.width;
+		float mousePosInUnits = Input.mousePosition.x / Screen.width * screenWidth;
 		Vector3 paddlePos = new Vector3(mousePosInUnits, transform.position.y);
 		transform.position = paddlePos;
 	}
