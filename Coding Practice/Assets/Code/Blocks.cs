@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Blocks : MonoBehaviour {
+[CreateAssetMenu]
+public class Blocks : ScriptableObject
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	[SerializeField] public float hitNum;
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
