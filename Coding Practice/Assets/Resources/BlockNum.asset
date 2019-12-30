@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a935f4470d6824cbdb496a2d0d988b, type: 3}
   m_Name: BlockNum
   m_EditorClassIdentifier: 
-  hitNum: 0
+  hitNum: 10
