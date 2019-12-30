@@ -13,7 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/NumberWizard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/TriggerEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/AdventureGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Blocks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Paddle.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,6 +29,7 @@
         <option value="$PROJECT_DIR$/Assets/Code/LoseCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Paddle.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Blocks.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/TriggerEvents.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +92,7 @@
       <workItem from="1576868406326" duration="1928000" />
       <workItem from="1577130051086" duration="2890000" />
       <workItem from="1577476203269" duration="1809000" />
-      <workItem from="1577744930430" duration="265000" />
+      <workItem from="1577744930430" duration="681000" />
     </task>
     <servers />
   </component>
