@@ -13,6 +13,7 @@
           <e p="NumberWizard.cs" t="Include" />
           <e p="Paddle.cs" t="Include" />
           <e p="States.cs" t="Include" />
+          <e p="TriggerEvents.cs" t="Include" />
         </e>
       </e>
       <e p="Coding Practice.sln" t="IncludeFlat" />
