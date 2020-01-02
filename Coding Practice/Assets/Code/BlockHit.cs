@@ -3,13 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerEvents : MonoBehaviour
+public class BlockHit : MonoBehaviour
 {
 	public float hitNum;
 	public GameObject block;
+	public Color blockActive;
 	private void OnTriggerEnter(Collider other)
 	{
 		hitNum -= 1;
+		blockActive = Color.black;
 	}
 
 	private void TurnOff()
