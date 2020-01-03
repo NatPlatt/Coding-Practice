@@ -27,10 +27,10 @@
         <option value="$PROJECT_DIR$/Assets/Code/AdventureGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/NumberWizard.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/LoseCollider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Paddle.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Blocks.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/BlockHit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Paddle.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +96,7 @@
       <workItem from="1577744930430" duration="681000" />
       <workItem from="1577821709782" duration="1210000" />
       <workItem from="1577992253573" duration="302000" />
+      <workItem from="1578084493930" duration="305000" />
     </task>
     <servers />
   </component>
