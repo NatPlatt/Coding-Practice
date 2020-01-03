@@ -13,7 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/NumberWizard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Ball.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Ball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/AdventureGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Blocks.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Paddle.cs" root0="FORCE_HIGHLIGHTING" />
@@ -97,7 +97,7 @@
       <workItem from="1577744930430" duration="681000" />
       <workItem from="1577821709782" duration="1210000" />
       <workItem from="1577992253573" duration="302000" />
-      <workItem from="1578084493930" duration="1180000" />
+      <workItem from="1578084493930" duration="1409000" />
     </task>
     <servers />
   </component>
