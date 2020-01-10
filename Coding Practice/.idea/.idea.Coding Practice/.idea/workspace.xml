@@ -12,14 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Code/NumberWizard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Ball.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/AdventureGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Blocks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Paddle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/States.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/LoseCollider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/BlockHit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,6 +25,7 @@
         <option value="$PROJECT_DIR$/Assets/Code/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/BlockHit.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Paddle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" />
       </list>
     </option>
   </component>
@@ -98,6 +92,7 @@
       <workItem from="1577821709782" duration="1210000" />
       <workItem from="1577992253573" duration="302000" />
       <workItem from="1578084493930" duration="1409000" />
+      <workItem from="1578673916931" duration="256000" />
     </task>
     <servers />
   </component>
