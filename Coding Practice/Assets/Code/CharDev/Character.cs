@@ -10,7 +10,7 @@ public class Character : MonoBehaviour
 	void Start()
 	{
 		controller = GetComponent<CharacterController>();
-		controller.center = new Vector3((float) -0.25, 1,1);
+		controller.center = new Vector3(0, 1,0);
 	}
 }
 	
