@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-public class Character : MonoBehaviour {
+public class Character : MonoBehaviour
+{
+	private CharacterController controller;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	void Start()
+	{
+		controller = GetComponent<CharacterController>();
 	}
 }
+	
+	
