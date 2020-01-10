@@ -454,6 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charHeight: 1
+  charWidth: 0.25
 --- !u!143 &1438740524
 CharacterController:
   m_ObjectHideFlags: 0
