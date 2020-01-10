@@ -12,7 +12,7 @@ public class Character : MonoBehaviour
 	void Start()
 	{
 		controller = GetComponent<CharacterController>();
-		controller.center = new Vector3(0, (float) 0.25,0);
+		controller.center = new Vector3(0, (float) 0.4,0);
 		controller.height = charHeight;
 		controller.radius = charWidth;
 	}
