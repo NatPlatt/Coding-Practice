@@ -7,6 +7,7 @@ public class MatchID : MonoBehaviour
 {
 
 	public NameID nameIDObj;
+	public List<NameID> IDList;
 
 	public void OnTriggerEnter(Collider other)
 	{
@@ -18,11 +19,21 @@ public class MatchID : MonoBehaviour
 
 		if (nameIDObj == null) return;
 
-			otherNameId = nameIDObj;
+		foreach (var ID in IDList)
+		{
+			IDList.Add(new NameID(nameIDObj));
+		}
+
+		foreach (NameID nameid in IDList)
+		{
+			print(nameid.name + " " + nameid.ToString();
+		}
+		
+		/*otherNameId = nameIDObj;
 
 		if (nameIDObj == otherNameId)
 		{
 			//do something
-		}
+		}*/
 	}
 }

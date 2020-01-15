@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class NameID : ScriptableObject
 {
-
-	
+	public NameID(NameID nameIdObj)
+	{
+		throw new System.NotImplementedException();
+	}
 }
