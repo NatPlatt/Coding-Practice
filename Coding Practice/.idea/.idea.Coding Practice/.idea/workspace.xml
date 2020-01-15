@@ -28,8 +28,8 @@
         <option value="$PROJECT_DIR$/Assets/Code/BlockHit.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Paddle.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/CharDev/MatchID.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/NameID.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/CharDev/MatchID.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +97,7 @@
       <workItem from="1577992253573" duration="302000" />
       <workItem from="1578084493930" duration="1409000" />
       <workItem from="1578673916931" duration="1716000" />
-      <workItem from="1579118999043" duration="1923000" />
+      <workItem from="1579118999043" duration="2223000" />
     </task>
     <servers />
   </component>
