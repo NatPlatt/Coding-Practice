@@ -12,16 +12,16 @@ public class MatchID : MonoBehaviour
 	public void OnTriggerEnter(Collider other)
 	{
 		var otherNameId = other.GetComponent<MatchID>().nameIDObj;
-		if (nameIDObj == otherNameId)
-		{
-			//do something
-		}
+		
 
 		if (nameIDObj == null) return;
 
 		foreach (var ID in IDList)
 		{
-			IDList.Add(new NameID(nameIDObj));
+			if (nameIDObj == otherNameId)
+			{
+				IDList.Add(new NameID(nameIDObj));
+			}
 		}
 
 		foreach (NameID nameid in IDList)
