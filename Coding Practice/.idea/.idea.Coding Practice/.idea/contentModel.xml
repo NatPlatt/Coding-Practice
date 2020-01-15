@@ -9,6 +9,7 @@
         <e p="Code" t="Include">
           <e p="CharDev" t="Include">
             <e p="Character.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
           </e>
           <e p="ExtraPractice" t="Include">
             <e p="AdventureGame.cs" t="Include" />
