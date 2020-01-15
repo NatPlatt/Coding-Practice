@@ -16,12 +16,9 @@ public class MatchID : MonoBehaviour
 			//do something
 		}
 
-		if (nameIDObj == null)
-		{
-			return;
-		}
+		if (nameIDObj == null) return;
 
-		otherNameId = nameIDObj;
+			otherNameId = nameIDObj;
 
 		if (nameIDObj == otherNameId)
 		{
