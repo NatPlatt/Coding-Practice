@@ -20,6 +20,12 @@ public class MatchID : MonoBehaviour
 		{
 			return;
 		}
-		
+
+		otherNameId = nameIDObj;
+
+		if (nameIDObj == otherNameId)
+		{
+			//do something
+		}
 	}
 }
