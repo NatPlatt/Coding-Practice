@@ -26,7 +26,7 @@ public class MatchID : MonoBehaviour
 
 		foreach (NameID nameid in IDList)
 		{
-			print(nameid.name + " " + nameid.ToString();
+			print(nameid.name + " " + nameid);
 		}
 		
 		/*otherNameId = nameIDObj;
