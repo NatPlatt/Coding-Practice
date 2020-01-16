@@ -18,10 +18,15 @@ public class MatchID : MonoBehaviour
 
 		foreach (var ID in IDList)
 		{
-			if (nameIDObj == otherNameId)
+			if (nameIDObj == otherNameId) //my version
 			{
 				IDList.Add(new NameID(nameIDObj));
 			}
+
+			if (nameIDObj == other.GetComponent<DoWork>().nameIdObj) //anthonys version
+			{
+					
+			} 
 		}
 
 		//moved to DoWork script
