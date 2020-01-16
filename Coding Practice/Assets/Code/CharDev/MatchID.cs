@@ -11,11 +11,13 @@ public class MatchID : MonoBehaviour
 
 	public void OnTriggerEnter(Collider other)
 	{
-		var otherNameId = other.GetComponent<MatchID>().nameIDObj;
 		
+		var doWorkObj = other.GetComponent<DoWork>();
+		var otherNameId = doWorkObj.nameIdObj;
 
 		if (nameIDObj == null) return;
-
+		
+		
 		foreach (var ID in IDList)
 		{
 			if (nameIDObj == otherNameId) //my version
@@ -23,9 +25,9 @@ public class MatchID : MonoBehaviour
 				IDList.Add(new NameID(nameIDObj));
 			}
 
-			if (nameIDObj == other.GetComponent<DoWork>().nameIdObj) //anthonys version
+			if (nameIDObj == otherNameId) //anthonys version
 			{
-					
+					doWorkObj.Work();
 			} 
 		}
 
