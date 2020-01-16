@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/MatchID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/NameID.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/DoWork.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/Assets/Code/Paddle.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/NameID.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/CharDev/DoWork.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/MatchID.cs" />
       </list>
     </option>
@@ -98,7 +100,7 @@
       <workItem from="1578084493930" duration="1409000" />
       <workItem from="1578673916931" duration="1716000" />
       <workItem from="1579118999043" duration="2223000" />
-      <workItem from="1579203013564" duration="686000" />
+      <workItem from="1579203013564" duration="1071000" />
     </task>
     <servers />
   </component>
