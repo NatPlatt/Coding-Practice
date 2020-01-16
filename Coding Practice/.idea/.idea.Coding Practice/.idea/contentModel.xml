@@ -9,6 +9,7 @@
         <e p="Code" t="Include">
           <e p="CharDev" t="Include">
             <e p="Character.cs" t="Include" />
+            <e p="DoWork.cs" t="Include" />
             <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
           </e>
