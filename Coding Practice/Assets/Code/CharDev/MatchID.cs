@@ -6,7 +6,7 @@ using UnityEngine;
 public class MatchID : MonoBehaviour
 {
 
-	public NameID nameIDObj;
+	public NameID nameIDObj; //moved to DoWork script
 	public List<NameID> IDList;
 
 	public void OnTriggerEnter(Collider other)
@@ -24,10 +24,11 @@ public class MatchID : MonoBehaviour
 			}
 		}
 
-		foreach (NameID nameid in IDList)
+		//moved to DoWork script
+		/*foreach (NameID nameid in IDList)
 		{
 			print(nameid.name + " " + nameid);
-		}
+		}*/
 		
 		/*otherNameId = nameIDObj;
 
