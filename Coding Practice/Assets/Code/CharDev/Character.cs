@@ -6,6 +6,8 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
 	private CharacterController controller;
+	public Animator animator;
+	public Animation animation;
 	public float charHeight;
 	public float charWidth;
 
@@ -15,6 +17,7 @@ public class Character : MonoBehaviour
 		controller.center = new Vector3(0, (float) 0.4,0);
 		controller.height = charHeight;
 		controller.radius = charWidth;
+		animator.Play(string);
 	}
 }
 	
