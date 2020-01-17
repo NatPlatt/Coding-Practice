@@ -17,7 +17,11 @@ public class Character : MonoBehaviour
 		controller.center = new Vector3(0, (float) 0.4,0);
 		controller.height = charHeight;
 		controller.radius = charWidth;
-		animator.Play(string);
+	}
+
+	void Play()
+	{
+		
 	}
 }
 	
