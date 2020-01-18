@@ -13,7 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/MatchID.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/ExtraPractice/Spawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/ExtraPractice/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/NameID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/DoWork.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/DoWork.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/MatchID.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/ExtraPractice/Spawner.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +103,7 @@
       <workItem from="1578673916931" duration="1716000" />
       <workItem from="1579118999043" duration="2223000" />
       <workItem from="1579203013564" duration="1699000" />
-      <workItem from="1579302527849" duration="759000" />
+      <workItem from="1579302527849" duration="1150000" />
     </task>
     <servers />
   </component>
