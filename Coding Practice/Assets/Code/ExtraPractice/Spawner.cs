@@ -1,16 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour {
+public class Spawner : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public GameObject spawnObj;
+	private int angle = 15;
 	
-	// Update is called once per frame
-	void Update () {
+
+	private void Start()
+	{
+		private Vector3 spawnPosition = transform.position;
 		
 	}
 }
