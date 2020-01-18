@@ -231,6 +231,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnObj: {fileID: 968279848}
+  angle: 90
+  num: 1
+  max: 10
 --- !u!65 &968279850
 BoxCollider:
   m_ObjectHideFlags: 0
