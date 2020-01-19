@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+	private Animator animator; 
 	private Vector3 movement;
 	
 	void Start () 
@@ -19,5 +20,7 @@ public class PlayerMove : MonoBehaviour
 		
 		movement.Set(horizontal, 0f, vertical);
 		movement.Normalize();
+
+		bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
 	}
 }
