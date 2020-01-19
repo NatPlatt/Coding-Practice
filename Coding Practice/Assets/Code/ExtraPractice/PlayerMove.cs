@@ -7,11 +7,10 @@ public class PlayerMove : MonoBehaviour
 	private Animator animator; 
 	private Vector3 movement;
 	
-	void Start () 
+	void Start ()
 	{
-		
+		animator = GetComponent<Animator>();
 	}
-	
 	
 	void Update ()
 	{
@@ -23,5 +22,8 @@ public class PlayerMove : MonoBehaviour
 
 		bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
 		bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
+		bool isWalking = hasHorizontalInput || hasVerticalInput;
+		
+		animator.SetBool("IsWalking", isWalking);
 	}
 }
