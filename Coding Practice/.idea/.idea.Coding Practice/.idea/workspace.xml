@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/NameID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/DoWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/ExtraPractice/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,6 +35,7 @@
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/MatchID.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/ExtraPractice/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/ExtraPractice/PlayerMove.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +106,7 @@
       <workItem from="1579118999043" duration="2223000" />
       <workItem from="1579203013564" duration="1699000" />
       <workItem from="1579302527849" duration="1499000" />
+      <workItem from="1579393270652" duration="264000" />
     </task>
     <servers />
   </component>
