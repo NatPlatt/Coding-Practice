@@ -21,6 +21,7 @@
             <e p="LoseCollider.cs" t="Include" />
             <e p="NumberWizard.cs" t="Include" />
             <e p="Paddle.cs" t="Include" />
+            <e p="PlayerMove.cs" t="Include" />
             <e p="Spawner.cs" t="Include" />
             <e p="States.cs" t="Include" />
           </e>
