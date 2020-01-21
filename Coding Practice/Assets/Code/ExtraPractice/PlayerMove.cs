@@ -26,5 +26,10 @@ public class PlayerMove : MonoBehaviour
 		bool isWalking = hasHorizontalInput || hasVerticalInput;
 		
 		animator.SetBool("IsWalking", isWalking);
+
+		Vector3 desiredForward = Vector3.RotateTowards(transform.forward, movement
+			, turnSpeed * Time.deltaTime, 0f);
+		//RotateTowards is a static method from the Vector3 class which takes 4 params:
+		//the vectors being rotated from and towards
 	}
 }
