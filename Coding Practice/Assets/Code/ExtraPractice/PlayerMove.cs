@@ -1,17 +1,20 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
 	public float turnSpeed = 20f;
-	private Animator animator; 
+	private Animator animator;
+	private Rigidbody myRigidbody;
 	private Vector3 movement;
 	Quaternion myRotation = Quaternion.identity; //giving it a value of no rotation instead of a 0 vector
 	
 	void Start ()
 	{
 		animator = GetComponent<Animator>();
+		myRigidbody = GetComponent<Rigidbody>();
 	}
 	
 	void Update ()
@@ -34,5 +37,13 @@ public class PlayerMove : MonoBehaviour
 		//the vectors being rotated from and towards
 
 		myRotation = Quaternion.LookRotation(desiredForward);
+	}
+
+	private void OnAnimatorMove()
+	{
+		myRigidbody.MovePosition(myRigidbody.position + movement * animator.deltaPosition.magnitude);
+		//deltaPosition is the change in position due to root motion, magnitude is the length
+		
+		myRigidbody.MoveRotation(myRotation); //setting the rotation
 	}
 }
