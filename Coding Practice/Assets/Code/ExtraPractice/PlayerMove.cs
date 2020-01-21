@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-	public float turnSpeed;
+	public float turnSpeed = 20f;
 	private Animator animator; 
 	private Vector3 movement;
 	
