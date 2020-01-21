@@ -7,6 +7,7 @@ public class PlayerMove : MonoBehaviour
 	public float turnSpeed = 20f;
 	private Animator animator; 
 	private Vector3 movement;
+	Quaternion myRotation = Quaternion.identity; //giving it a value of no rotation instead of a 0 vector
 	
 	void Start ()
 	{
@@ -31,5 +32,7 @@ public class PlayerMove : MonoBehaviour
 			, turnSpeed * Time.deltaTime, 0f);
 		//RotateTowards is a static method from the Vector3 class which takes 4 params:
 		//the vectors being rotated from and towards
+
+		myRotation = Quaternion.LookRotation(desiredForward);
 	}
 }
