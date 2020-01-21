@@ -17,7 +17,7 @@ public class PlayerMove : MonoBehaviour
 		myRigidbody = GetComponent<Rigidbody>();
 	}
 	
-	void Update ()
+	void FixedUpdate () //fixedUpdate runs physics operations, so in this case it makes more sense to use instead of update
 	{
 		float horizontal = Input.GetAxis("Horizontal");
 		float vertical = Input.GetAxis("Vertical");
