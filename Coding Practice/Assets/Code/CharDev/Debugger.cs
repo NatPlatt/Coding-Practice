@@ -22,3 +22,9 @@ public class GameAction : ScriptableObject
 		if (action != null) action.Invoke();
 	}
 }
+
+[CreateAssetMenu]
+public class FloatData : ScriptableObject
+{
+	public float value = 1f;
+}
