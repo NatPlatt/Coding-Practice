@@ -10,6 +10,7 @@
           <e p="CharDev" t="Include">
             <e p="animBehavior.cs" t="Include" />
             <e p="Character.cs" t="Include" />
+            <e p="Debugger.cs" t="Include" />
             <e p="DoWork.cs" t="Include" />
             <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
