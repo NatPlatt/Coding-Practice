@@ -163,6 +163,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 39d03f82786b57d41af8bd27bce84402, type: 3}
   m_IsPrefabParent: 0
+--- !u!95 &28224795 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: 39d03f82786b57d41af8bd27bce84402,
+    type: 3}
+  m_PrefabInternal: {fileID: 28224794}
 --- !u!1 &157038590 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100134, guid: 39d03f82786b57d41af8bd27bce84402, type: 3}
@@ -178,6 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f794d3c490e58594ea494fc06b6fd6b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 28224795}
+  animation: {fileID: 0}
   charHeight: 0
   charWidth: 0
 --- !u!143 &157038594
@@ -421,7 +428,7 @@ GameObject:
   - component: {fileID: 728625139}
   - component: {fileID: 728625138}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: groundPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -576,6 +583,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f794d3c490e58594ea494fc06b6fd6b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  animation: {fileID: 0}
   charHeight: 1
   charWidth: 0.25
 --- !u!143 &1438740524
@@ -607,7 +616,7 @@ GameObject:
   - component: {fileID: 1825378920}
   - component: {fileID: 1825378919}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
