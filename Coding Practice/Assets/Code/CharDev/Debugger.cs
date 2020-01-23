@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class Debugger : ScriptableObject {
-
+//NEED TO MAKE THESE SEPARATE CLASSES
 	public void OnDebug(string message)
 	{
 		Debug.Log("");
