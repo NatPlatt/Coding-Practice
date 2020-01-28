@@ -46,6 +46,13 @@ public class AnimControl : MonoBehaviour
 
 	void Run()
 	{
-		
+		if (Input.GetKeyDown("1"))
+		{
+			runBool = true;
+		}
+		else
+		{
+			runBool = false;
+		}
 	}
 }
