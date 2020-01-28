@@ -23,5 +23,15 @@ public class AnimControl : MonoBehaviour
 		{
 			jumpBool = false;
 		}
+
+		if (jumpBool == false)
+		{
+			myAnimator.SetBool("jumpBool", false);
+		}
+
+		if (jumpBool == true)
+		{
+			myAnimator.SetBool("jumpBool", true);
+		}
 	}
 }
