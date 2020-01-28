@@ -33,6 +33,7 @@ public class AnimControl : MonoBehaviour
 			jumpBool = false;
 		}
 
+		
 		if (jumpBool == false)
 		{
 			myAnimator.SetBool("jumpBool", false);
@@ -53,6 +54,12 @@ public class AnimControl : MonoBehaviour
 		else
 		{
 			runBool = false;
+		}
+
+
+		if (runBool == false)
+		{
+			myAnimator.SetBool("runBool", false);
 		}
 	}
 }
