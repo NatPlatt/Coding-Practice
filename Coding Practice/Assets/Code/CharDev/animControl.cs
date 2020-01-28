@@ -18,6 +18,11 @@ public class AnimControl : MonoBehaviour
 	
 	void Update () 
 	{
+		Jump();
+	}
+
+	void Jump()
+	{
 		if (Input.GetKeyDown("space"))
 		{
 			jumpBool = true;
