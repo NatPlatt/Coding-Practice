@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class NameID : ScriptableObject
+public class NameId : ScriptableObject
 {
-	public NameID(NameID nameIdObj)
+	public NameId(NameId nameIdObj)
 	{
 		throw new System.NotImplementedException();
 	}

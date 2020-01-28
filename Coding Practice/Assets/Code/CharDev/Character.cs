@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class Character : MonoBehaviour
 {
-	private CharacterController controller;
+	private CharacterController _controller;
 	public Animator animator;
 	public Animation animation;
 	public float charHeight;
@@ -13,10 +13,10 @@ public class Character : MonoBehaviour
 
 	void Start()
 	{
-		controller = GetComponent<CharacterController>();
-		controller.center = new Vector3(0, (float) 0.4,0);
-		controller.height = charHeight;
-		controller.radius = charWidth;
+		_controller = GetComponent<CharacterController>();
+		_controller.center = new Vector3(0, (float) 0.4,0);
+		_controller.height = charHeight;
+		_controller.radius = charWidth;
 	}
 
 	void Play()

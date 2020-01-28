@@ -9,11 +9,11 @@ public class AdventureGame : MonoBehaviour
 	[SerializeField] private States startingState;
 	
 	
-	private States state;
+	private States _state;
 	void Start ()
 	{
-		state = startingState;
-		textComponent.text = state.GetStateStory();
+		_state = startingState;
+		textComponent.text = _state.GetStateStory();
 	}
 	
 	void Update ()
@@ -23,12 +23,12 @@ public class AdventureGame : MonoBehaviour
 
 	private void ManageState()
 	{
-		var nextStates = state.GetNextStates(); //Get next states in States scriptable object
+		var nextStates = _state.GetNextStates(); //Get next states in States scriptable object
 		for (int index = 0; index < nextStates.Length; index++)
 		{
 			if (Input.GetKeyDown(KeyCode.Alpha1 + index))
 			{
-				state = nextStates[index];
+				_state = nextStates[index];
 			}
 		}
 		
@@ -45,6 +45,6 @@ public class AdventureGame : MonoBehaviour
 			state = nextStates[2];
 		}*/
 
-		textComponent.text = state.GetStateStory();
+		textComponent.text = _state.GetStateStory();
 	}
 }

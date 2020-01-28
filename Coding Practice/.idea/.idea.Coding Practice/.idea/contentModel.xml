@@ -9,6 +9,7 @@
         <e p="Code" t="Include">
           <e p="CharDev" t="Include">
             <e p="animBehavior.cs" t="Include" />
+            <e p="animControl.cs" t="Include" />
             <e p="Character.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="DoWork.cs" t="Include" />

@@ -2,12 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class MatchID : MonoBehaviour
+public class MatchId : MonoBehaviour
 {
 
-	public NameID nameIDObj; //moved to DoWork script
-	public List<NameID> IDList;
+	[FormerlySerializedAs("nameIDObj")] public NameId nameIdObj; //moved to DoWork script
+	[FormerlySerializedAs("IDList")] public List<NameId> idList;
 
 	public void OnTriggerEnter(Collider other)
 	{
@@ -15,17 +16,17 @@ public class MatchID : MonoBehaviour
 		var doWorkObj = other.GetComponent<DoWork>();
 		var otherNameId = doWorkObj.nameIdObj;
 
-		if (nameIDObj == null) return;
+		if (nameIdObj == null) return;
 		
 		
-		foreach (var ID in IDList)
+		foreach (var id in idList)
 		{
-			if (nameIDObj == otherNameId) //my version
+			if (nameIdObj == otherNameId) //my version
 			{
-				IDList.Add(new NameID(nameIDObj));
+				idList.Add(new NameId(nameIdObj));
 			}
 
-			if (nameIDObj == otherNameId) //anthonys version
+			if (nameIdObj == otherNameId) //anthonys version
 			{
 					doWorkObj.Work();
 			} 

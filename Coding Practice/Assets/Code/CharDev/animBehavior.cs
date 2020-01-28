@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class animBehavior : StateMachineBehaviour
+public class AnimBehavior : StateMachineBehaviour
 {
 
     public UnityEvent stateEnterEvent;
