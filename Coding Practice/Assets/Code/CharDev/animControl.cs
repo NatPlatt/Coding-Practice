@@ -13,7 +13,15 @@ public class AnimControl : MonoBehaviour
 	}
 	
 	
-	void Update () {
-		
+	void Update () 
+	{
+		if (Input.GetKeyDown("space"))
+		{
+			jumpBool = true;
+		}
+		else
+		{
+			jumpBool = false;
+		}
 	}
 }

@@ -20,7 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/ExtraPractice/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/animBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/animControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/CharDev/AnimControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,7 +115,7 @@
       <workItem from="1579393270652" duration="1010000" />
       <workItem from="1579648326800" duration="1113000" />
       <workItem from="1579807369013" duration="1842000" />
-      <workItem from="1580173915487" duration="661000" />
+      <workItem from="1580173915487" duration="932000" />
     </task>
     <servers />
   </component>
