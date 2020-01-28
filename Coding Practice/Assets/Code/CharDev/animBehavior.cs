@@ -8,7 +8,7 @@ public class animBehavior : StateMachineBehaviour
 
     public UnityEvent stateEnterEvent;
     private Animator myAnimator;
-    
+    private bool jumpBool;
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         stateEnterEvent.Invoke();
