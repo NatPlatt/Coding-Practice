@@ -61,5 +61,10 @@ public class AnimControl : MonoBehaviour
 		{
 			myAnimator.SetBool("runBool", false);
 		}
+
+		if (runBool == true)
+		{
+			myAnimator.SetBool("runBool", true);
+		}
 	}
 }
