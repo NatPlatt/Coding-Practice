@@ -19,6 +19,7 @@ public class AnimControl : MonoBehaviour
 	void Update () 
 	{
 		Jump();
+		Run();
 	}
 
 	void Jump()
@@ -41,5 +42,10 @@ public class AnimControl : MonoBehaviour
 		{
 			myAnimator.SetBool("jumpBool", true);
 		}
+	}
+
+	void Run()
+	{
+		
 	}
 }
