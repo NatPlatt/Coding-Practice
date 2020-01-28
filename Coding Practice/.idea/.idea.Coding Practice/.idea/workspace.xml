@@ -42,6 +42,7 @@
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/animBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CharDev/animControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/CharDev/AnimControl.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +116,7 @@
       <workItem from="1579393270652" duration="1010000" />
       <workItem from="1579648326800" duration="1113000" />
       <workItem from="1579807369013" duration="1842000" />
-      <workItem from="1580173915487" duration="932000" />
+      <workItem from="1580173915487" duration="1182000" />
     </task>
     <servers />
   </component>
