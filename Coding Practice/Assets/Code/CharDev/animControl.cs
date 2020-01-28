@@ -12,6 +12,7 @@ public class AnimControl : MonoBehaviour
 	{
 		myAnimator = GetComponent<Animator>();
 		jumpBool = false;
+		runBool = false;
 	}
 	
 	
