@@ -6,6 +6,8 @@ public class AnimControl : MonoBehaviour
 {
 	private Animator myAnimator;
 	private bool jumpBool;
+	private bool runBool;
+	
 	void Start ()
 	{
 		myAnimator = GetComponent<Animator>();
