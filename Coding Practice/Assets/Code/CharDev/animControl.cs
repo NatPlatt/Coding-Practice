@@ -22,6 +22,7 @@ public class AnimControl : MonoBehaviour
 	{
 		Jump();
 		Run();
+		CastSpell();
 	}
 
 	void Jump()
