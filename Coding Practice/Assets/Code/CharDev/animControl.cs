@@ -76,5 +76,9 @@ public class AnimControl : MonoBehaviour
 		{
 			spellBool = true;
 		}
+		else
+		{
+			spellBool = false;
+		}
 	}
 }
