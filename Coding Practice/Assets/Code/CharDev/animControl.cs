@@ -74,7 +74,7 @@ public class AnimControl : MonoBehaviour
 	{
 		if (Input.GetKeyDown("2"))
 		{
-			
+			spellBool = true;
 		}
 	}
 }
