@@ -80,5 +80,10 @@ public class AnimControl : MonoBehaviour
 		{
 			spellBool = false;
 		}
+
+		if (spellBool == false)
+		{
+			myAnimator.SetBool("spellBool", false);
+		}
 	}
 }
