@@ -7,12 +7,14 @@ public class AnimControl : MonoBehaviour
 	private Animator myAnimator;
 	private bool jumpBool;
 	private bool runBool;
+	private bool spellBool;
 	
 	void Start ()
 	{
 		myAnimator = GetComponent<Animator>();
 		jumpBool = false;
 		runBool = false;
+		spellBool = false;
 	}
 	
 	
@@ -70,6 +72,9 @@ public class AnimControl : MonoBehaviour
 
 	void CastSpell()
 	{
-		
+		if (Input.GetKeyDown("2"))
+		{
+			
+		}
 	}
 }
