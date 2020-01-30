@@ -67,4 +67,9 @@ public class AnimControl : MonoBehaviour
 			myAnimator.SetBool("runBool", true);
 		}
 	}
+
+	void CastSpell()
+	{
+		
+	}
 }
