@@ -15,6 +15,7 @@
             <e p="DoWork.cs" t="Include" />
             <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
+            <e p="PlayerControl.cs" t="Include" />
           </e>
           <e p="ExtraPractice" t="Include">
             <e p="AdventureGame.cs" t="Include" />
