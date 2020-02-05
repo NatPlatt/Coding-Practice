@@ -13,6 +13,6 @@ public class PlayerControl : MonoBehaviour
 	
 	
 	void Update () {
-		
+		rBody.velocity = new Vector3(1,1,1);
 	}
 }
