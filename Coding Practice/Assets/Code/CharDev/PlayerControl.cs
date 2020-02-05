@@ -7,12 +7,13 @@ public class PlayerControl : MonoBehaviour
 {
 
 	public Rigidbody rBody;
+	public float moveSpeed = 1f;
 	void Start () {
 		
 	}
 	
 	
 	void Update () {
-		rBody.velocity = new Vector3(Input.GetAxisRaw("Horizontal"),0,Input.GetAxisRaw("Vertical"));
+		rBody.velocity = new Vector3(Input.GetAxisRaw("Horizontal"),0,Input.GetAxisRaw("Vertical")) * moveSpeed;
 	}
 }
