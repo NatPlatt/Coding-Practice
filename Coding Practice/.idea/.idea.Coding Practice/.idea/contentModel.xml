@@ -11,6 +11,7 @@
             <e p="animBehavior.cs" t="Include" />
             <e p="animControl.cs" t="Include" />
             <e p="Character.cs" t="Include" />
+            <e p="CharController.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="DoWork.cs" t="Include" />
             <e p="MatchID.cs" t="Include" />
