@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,6 +21,12 @@ public class PlayerControl : MonoBehaviour
 
 	void ControlThePlayer()
 	{
+		float verticalMove = Input.GetAxisRaw("Vertical");
 		float horizontalMove = Input.GetAxisRaw("Horizontal");
+		
+		Vector3 move = new Vector3(horizontalMove, 0,verticalMove);
+		transform.rotation = Quaternion.LookRotation(move);
+		
+		transform.Translate(move * moveSpeed * Time.deltaTime, Space.World);
 	}
 }
