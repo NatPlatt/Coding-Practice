@@ -20,7 +20,7 @@ public class CharController : MonoBehaviour
 	
 	
 	void Update () {
-		
+		MoveIt();
 	}
 
 	private void MoveIt()
@@ -28,6 +28,11 @@ public class CharController : MonoBehaviour
 		if (charController.isGrounded)
 		{
 			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+			moveDirection *= speed;
 		}
+
+		moveDirection.y -= gravity * Time.deltaTime;
+
+		charController.Move(moveDirection * Time.deltaTime);
 	}
 }
