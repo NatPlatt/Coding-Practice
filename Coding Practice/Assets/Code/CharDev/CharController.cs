@@ -22,4 +22,12 @@ public class CharController : MonoBehaviour
 	void Update () {
 		
 	}
+
+	private void MoveIt()
+	{
+		if (charController.isGrounded)
+		{
+			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+		}
+	}
 }
