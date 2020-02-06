@@ -14,6 +14,12 @@ public class PlayerControl : MonoBehaviour
 	
 	
 	void Update () {
-		rBody.velocity = new Vector3(Input.GetAxisRaw("Horizontal"),0,Input.GetAxisRaw("Vertical")) * moveSpeed;
+		ControlThePlayer();
+		//rBody.velocity = new Vector3(Input.GetAxisRaw("Horizontal"),0,Input.GetAxisRaw("Vertical")) * moveSpeed;
+	}
+
+	void ControlThePlayer()
+	{
+		float horizontalMove = Input.GetAxisRaw("Horizontal");
 	}
 }
